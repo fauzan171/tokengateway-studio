@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-10-13T11:21:02.218554+00:00",
+  "reportedError": {
+    "status": 503,
+    "code": "model_temporarily_unavailable",
+    "request_id": "39e0c6fd-e6c0-4c88-abf0-a2237c057e83"
+  },
+  "provider": {
+    "prefix": "9inf",
+    "baseUrl": "https://tokengateway.ai.id/v1",
+    "apiType": "chat",
+    "model": "glm-5.3-flash"
+  },
+  "tests": [
+    {
+      "path": "direct",
+      "httpStatus": 200,
+      "elapsedSeconds": 26.634314,
+      "model": "glm-5.3-flash",
+      "hasReply": true,
+      "usage": {
+        "completion_tokens": 65,
+        "cost": 1e-05,
+        "prompt_tokens": 16,
+        "total_tokens": 81,
+        "buyer_cost_micro": 0
+      }
+    },
+    {
+      "path": "router-chat",
+      "httpStatus": 200,
+      "elapsedSeconds": 34.679958,
+      "model": "glm-5.3-flash",
+      "hasReply": true,
+      "usage": {
+        "prompt_tokens": 2800,
+        "completion_tokens": 18,
+        "total_tokens": 2818,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        }
+      }
+    },
+    {
+      "path": "router-messages",
+      "httpStatus": 200,
+      "elapsedSeconds": 2.561096,
+      "model": "glm-5.3-flash",
+      "hasReply": true,
+      "usage": {
+        "input_tokens": 2800,
+        "output_tokens": 3
+      }
+    }
+  ],
+  "currentConnectionState": {
+    "modelLock_glm-5.3-flash": null,
+    "errorCode": null,
+    "backoffLevel": 0,
+    "modelLock_deepseek-v4.1-flash": null,
+    "lastErrorAt": null,
+    "rateLimitedUntil": null,
+    "modelLock_kimi-k3": null
+  },
+  "configurationChanged": false,
+  "serverRestarted": false,
+  "reportedRequestFoundInLocalDetails": false,
+  "limitations": "Small successful probes do not reproduce the original client payload or identify the exact historical outage. TokenGateway backend logs were not available in this workspace. Existing key exposes only glm-5.3-flash in /v1/models."
+}

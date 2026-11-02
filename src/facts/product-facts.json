@@ -1,0 +1,393 @@
+{
+  "factsRevision": "product-facts-v1",
+  "snapshotDate": "2026-10-12",
+  "sourceUrl": "https://tokengateway.ai.id/api/v1/catalog/packages",
+  "sourceUrls": [
+    "https://tokengateway.ai.id/api/v1/catalog/packages",
+    "https://tokengateway.ai.id/api/v1/catalog/models",
+    "https://tokengateway.ai.id/pricing"
+  ],
+  "notice": "Snapshot statis 12 Oktober 2026. Bukan live feed. Refresh sebelum publikasi.",
+  "packages": [
+    {
+      "packageId": "pass-glm-5.3-flash-50m",
+      "version": 1,
+      "name": "Pass Kilat GLM 5.3 Flash 50M",
+      "priceIdr": 10000,
+      "grantTokens": 50000000,
+      "validityDays": 7,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["glm-5.3-flash"]
+    },
+    {
+      "packageId": "pkg-allstar-flash-100m",
+      "version": 2,
+      "name": "Paket Kilat All-Star Flash",
+      "priceIdr": 24000,
+      "grantTokens": 100000000,
+      "validityDays": 10,
+      "category": "bundling",
+      "label": "bundling",
+      "modelIds": ["deepseek-v4.1-flash", "glm-5.3-flash", "qwen3.8-flash"]
+    },
+    {
+      "packageId": "pkg-super-flash-300m",
+      "version": 1,
+      "name": "Paket Super Flash",
+      "priceIdr": 39000,
+      "grantTokens": 300000000,
+      "validityDays": 14,
+      "category": "bundling",
+      "label": "bundling",
+      "modelIds": ["deepseek-v4.1-flash", "glm-5.3-flash", "qwen3.8-flash"]
+    },
+    {
+      "packageId": "pkg-coder-architect-50m",
+      "version": 1,
+      "name": "Paket Coder & Architect",
+      "priceIdr": 35000,
+      "grantTokens": 50000000,
+      "validityDays": 14,
+      "category": "bundling",
+      "label": "bundling",
+      "modelIds": ["deepseek-v4-pro", "qwen3-coder", "qwen3.8-flash"]
+    },
+    {
+      "packageId": "pkg-deep-reasoning-40m",
+      "version": 1,
+      "name": "Paket Deep Reasoning",
+      "priceIdr": 39000,
+      "grantTokens": 40000000,
+      "validityDays": 14,
+      "category": "bundling",
+      "label": "bundling",
+      "modelIds": ["deepseek-v4-pro", "glm-5.3"]
+    },
+    {
+      "packageId": "pass-deepseek-flash-150m",
+      "version": 1,
+      "name": "Pass DeepSeek Flash 150M",
+      "priceIdr": 22000,
+      "grantTokens": 150000000,
+      "validityDays": 10,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["deepseek-v4-flash", "deepseek-v4.1-flash"]
+    },
+    {
+      "packageId": "pass-glm-5.3-flash-120m",
+      "version": 1,
+      "name": "Pass GLM 5.3 Flash 120M",
+      "priceIdr": 22000,
+      "grantTokens": 120000000,
+      "validityDays": 10,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["glm-5.3-flash"]
+    },
+    {
+      "packageId": "pass-titan-flash-1b",
+      "version": 1,
+      "name": "Pass Titan Flash 1 Miliar",
+      "priceIdr": 95000,
+      "grantTokens": 1000000000,
+      "validityDays": 30,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["deepseek-v4.1-flash"]
+    },
+    {
+      "packageId": "pass-gemini-3.8-flash-50m",
+      "version": 2,
+      "name": "Pass Gemini 3.8 Flash 50M",
+      "priceIdr": 27000,
+      "grantTokens": 50000000,
+      "validityDays": 10,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["gemini-3.8-flash"]
+    },
+    {
+      "packageId": "pass-gemini-3.7-flash-60m",
+      "version": 1,
+      "name": "Pass Gemini 3.7 Flash 60M",
+      "priceIdr": 25000,
+      "grantTokens": 60000000,
+      "validityDays": 10,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["gemini-3.7-flash"]
+    },
+    {
+      "packageId": "pass-glm-5.2-60m",
+      "version": 1,
+      "name": "Pass GLM 5.2 Fast 60M",
+      "priceIdr": 24000,
+      "grantTokens": 60000000,
+      "validityDays": 10,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["glm-5.2"]
+    },
+    {
+      "packageId": "pass-qwen3-coder-60m",
+      "version": 1,
+      "name": "Pass Qwen 3 Coder 60M",
+      "priceIdr": 25000,
+      "grantTokens": 60000000,
+      "validityDays": 14,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["qwen3-coder"]
+    },
+    {
+      "packageId": "pass-deepseek-v4-pro-65m",
+      "version": 1,
+      "name": "Pass DeepSeek V4 Pro 65M",
+      "priceIdr": 32000,
+      "grantTokens": 65000000,
+      "validityDays": 14,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["deepseek-v4-pro"]
+    },
+    {
+      "packageId": "pass-glm-5.3-40m",
+      "version": 1,
+      "name": "Pass GLM 5.3 Reasoning 40M",
+      "priceIdr": 32000,
+      "grantTokens": 40000000,
+      "validityDays": 14,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["glm-5.3"]
+    },
+    {
+      "packageId": "pass-gpt-6-luna-60m",
+      "version": 1,
+      "name": "Pass GPT-6 Luna 60M",
+      "priceIdr": 22000,
+      "grantTokens": 60000000,
+      "validityDays": 10,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["gpt-6-luna"]
+    },
+    {
+      "packageId": "pkg-gpt6-frontier-20m",
+      "version": 1,
+      "name": "Paket Generasi GPT-6 Frontier 20M",
+      "priceIdr": 69000,
+      "grantTokens": 20000000,
+      "validityDays": 14,
+      "category": "bundling",
+      "label": "bundling",
+      "modelIds": ["gpt-6-astra", "gpt-6-luna", "gpt-6-sol", "gpt-6.1-sol"]
+    },
+    {
+      "packageId": "pkg-gpt6-frontier-30m",
+      "version": 1,
+      "name": "Paket Generasi GPT-6 Frontier 30M",
+      "priceIdr": 129000,
+      "grantTokens": 30000000,
+      "validityDays": 21,
+      "category": "bundling",
+      "label": "bundling",
+      "modelIds": ["gpt-6-astra", "gpt-6-luna", "gpt-6-sol", "gpt-6.1-sol"]
+    },
+    {
+      "packageId": "pass-gpt-6-sol-50m",
+      "version": 2,
+      "name": "Pass GPT-6 Sol 50M",
+      "priceIdr": 35000,
+      "grantTokens": 50000000,
+      "validityDays": 14,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["gpt-6-sol"]
+    },
+    {
+      "packageId": "pass-kimi-k3-50m",
+      "version": 2,
+      "name": "Pass Kimi K3 Flagship 50M",
+      "priceIdr": 29000,
+      "grantTokens": 50000000,
+      "validityDays": 10,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["kimi-k3"]
+    },
+    {
+      "packageId": "pass-gpt-6.1-sol-25m",
+      "version": 1,
+      "name": "Pass GPT-6.1 Sol Flagship 25M",
+      "priceIdr": 49000,
+      "grantTokens": 25000000,
+      "validityDays": 14,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["gpt-6.1-sol"]
+    },
+    {
+      "packageId": "pass-gpt-6-astra-15m",
+      "version": 1,
+      "name": "Pass GPT-6 Astra Flagship 15M",
+      "priceIdr": 65000,
+      "grantTokens": 15000000,
+      "validityDays": 14,
+      "category": "pass",
+      "label": "single",
+      "modelIds": ["gpt-6-astra"]
+    }
+  ],
+  "models": [
+    { "modelId": "deepseek-v4-flash", "name": "DeepSeek V4 Flash", "inPackageSnapshot": true },
+    { "modelId": "deepseek-v4-pro", "name": "DeepSeek V4 Pro", "inPackageSnapshot": true },
+    { "modelId": "deepseek-v4.1-flash", "name": "DeepSeek V4.1 Flash", "inPackageSnapshot": true },
+    { "modelId": "gemini-3.7-flash", "name": "Google Gemini 3.7 Flash", "inPackageSnapshot": true },
+    { "modelId": "gemini-3.8-flash", "name": "Google Gemini 3.8 Flash", "inPackageSnapshot": true },
+    { "modelId": "glm-5.2", "name": "GLM 5.2 Fast", "inPackageSnapshot": true },
+    { "modelId": "glm-5.3", "name": "GLM 5.3", "inPackageSnapshot": true },
+    { "modelId": "glm-5.3-flash", "name": "GLM 5.3 Flash", "inPackageSnapshot": true },
+    { "modelId": "gpt-5.4-mini", "name": "GPT-5.4 Mini Fast", "inPackageSnapshot": false },
+    { "modelId": "gpt-6-astra", "name": "OpenAI GPT-6 Astra", "inPackageSnapshot": true },
+    { "modelId": "gpt-6-luna", "name": "OpenAI GPT-6 Luna", "inPackageSnapshot": true },
+    { "modelId": "gpt-6-sol", "name": "OpenAI GPT-6 Sol", "inPackageSnapshot": true },
+    { "modelId": "gpt-6.1-sol", "name": "OpenAI GPT-6.1 Sol", "inPackageSnapshot": true },
+    { "modelId": "kimi-k2.7-code", "name": "Kimi K2.7 Code", "inPackageSnapshot": false },
+    { "modelId": "kimi-k3", "name": "Kimi K3", "inPackageSnapshot": true },
+    { "modelId": "qwen-3-8-max", "name": "Qwen 3.8 Max Flagship", "inPackageSnapshot": false },
+    { "modelId": "qwen3-coder", "name": "Qwen 3 Coder 480B", "inPackageSnapshot": true },
+    { "modelId": "qwen3.8-flash", "name": "Qwen 3.8 Flash", "inPackageSnapshot": true }
+  ],
+  "facts": [
+    {
+      "id": "f01-base-url",
+      "claim": "Base URL https://tokengateway.ai.id/v1",
+      "status": "PUBLIC",
+      "source": "docs",
+      "verifiedAt": "2026-10-12",
+      "notes": "Nilai dokumentasi; bukan uptime guarantee."
+    },
+    {
+      "id": "f02-entry-glm-offer",
+      "claim": "Harga entry GLM Rp10.000 / 50 juta token / 7 hari",
+      "status": "PUBLIC",
+      "source": "katalog paket pass-glm-5.3-flash-50m v1",
+      "verifiedAt": "2026-10-12",
+      "value": {
+        "kind": "TOKEN_BUNDLE",
+        "priceIdr": 10000,
+        "tokenQuota": 50000000,
+        "quotaUnit": "token",
+        "modelIds": ["glm-5.3-flash"],
+        "validityDays": 7
+      },
+      "notes": "Tampilkan bersama nama model, masa berlaku dan note biaya layanan."
+    },
+    {
+      "id": "f03-payment-qris",
+      "claim": "Pembayaran QRIS DOKU",
+      "status": "PUBLIC",
+      "source": "pricing",
+      "verifiedAt": "2026-10-12",
+      "notes": "Transaksi aktual belum diuji."
+    },
+    {
+      "id": "f04-no-credit-card",
+      "claim": "Tanpa kartu kredit pada jalur QRIS",
+      "status": "OWNER",
+      "source": "brief awal pemilik; jalur QRIS publik tersedia",
+      "verifiedAt": "2026-10-12",
+      "notes": "Berlaku untuk jalur QRIS, bukan audit seluruh payment provider."
+    },
+    {
+      "id": "f05-openai-compatible",
+      "claim": "OpenAI-compatible dan Anthropic-compatible endpoints",
+      "status": "PUBLIC",
+      "source": "docs",
+      "verifiedAt": "2026-10-12",
+      "notes": "Menjelaskan kompatibilitas format; tidak menjamin seluruh fitur tool."
+    },
+    {
+      "id": "f06-model-access",
+      "claim": "Akses model mengikuti paket, akun dan API key",
+      "status": "PUBLIC",
+      "source": "docs",
+      "verifiedAt": "2026-10-12"
+    },
+    {
+      "id": "f07-email-verification",
+      "claim": "Verifikasi email sebelum membeli",
+      "status": "PUBLIC",
+      "source": "pricing UI",
+      "verifiedAt": "2026-10-12"
+    },
+    {
+      "id": "f08-service-fee",
+      "claim": "Biaya layanan UI 0,8%, pembulatan ke atas",
+      "status": "PUBLIC",
+      "source": "pricing client bundle; rumus ceil(subtotal x 0.008)",
+      "verifiedAt": "2026-10-12",
+      "notes": "Simulasi UI dipublikasikan, bukan invoice checkout terverifikasi. Rp10.000 menghasilkan Rp80 biaya dan Rp10.080 total pada simulasi."
+    },
+    {
+      "id": "f09-activation",
+      "claim": "Paket aktif setelah QRIS terbayar",
+      "status": "PUBLIC",
+      "source": "pricing wording",
+      "verifiedAt": "2026-10-12",
+      "notes": "Hasil transaksi dan waktu aktivasi pending."
+    },
+    {
+      "id": "f10-streaming-sse",
+      "claim": "Streaming SSE didokumentasikan",
+      "status": "PUBLIC",
+      "source": "docs",
+      "verifiedAt": "2026-10-12",
+      "notes": "Demo operasional belum dilakukan."
+    },
+    {
+      "id": "f11-provider-catalog",
+      "claim": "GLM, DeepSeek dan Gemini tercantum dalam katalog dan paket",
+      "status": "PUBLIC",
+      "source": "katalog",
+      "verifiedAt": "2026-10-12",
+      "notes": "Tidak menyiratkan satu harga untuk semua provider."
+    },
+    {
+      "id": "f12-console-keys",
+      "claim": "API keys dan usage tersedia sebagai bagian console",
+      "status": "PUBLIC",
+      "source": "docs dan public UI source",
+      "verifiedAt": "2026-10-12",
+      "notes": "Tidak memakai angka usage/dashboard palsu."
+    },
+    {
+      "id": "f13-cursor-steps",
+      "claim": "Langkah spesifik Cursor dan kompatibilitas versi client",
+      "status": "PENDING",
+      "source": "petunjuk docs publik; operasional belum diuji",
+      "verifiedAt": "2026-10-12",
+      "notes": "Tutorial step-by-step perlu uji versi target. CODE_MOCKUP tidak boleh mengklaim tutorial Cursor terverifikasi."
+    },
+    {
+      "id": "f14-voucher",
+      "claim": "Voucher/traktir teman",
+      "status": "PUBLIC",
+      "source": "public UI source",
+      "verifiedAt": "2026-10-12",
+      "notes": "Kandidat konten tahap lanjut; delivery/receipt pending."
+    }
+  ],
+  "pendingOperational": [
+    "Perilaku rollover, stacking, refund, transfer dan expiry kuota belum diverifikasi.",
+    "Perhitungan input/output/cached/reasoning token terhadap grant_tokens belum dijelaskan.",
+    "Rincian biaya layanan pada invoice checkout final belum diverifikasi.",
+    "Hasil transaksi QRIS dan waktu aktivasi paket belum diuji.",
+    "Langkah integrasi Cursor pada versi target belum diuji.",
+    "Comparator $20/bulan + kartu kredit belum memiliki produk/plan dan bukti terkini.",
+    "Kebijakan pembagian/pooling kuota untuk paket bundling belum diperiksa."
+  ]
+}

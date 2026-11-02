@@ -1,0 +1,10 @@
+/* GENERATED from src/design/tokens.json — do not edit by hand. Regenerate: node scripts/build-tokens.mjs */
+[data-tg-canvas]{
+--tg-bg:#181D23;--tg-surface:#202832;--tg-surface-elevated:#26303C;
+--tg-line:#33404E;--tg-text:#F4F7FA;--tg-text-2:#AEBBC8;
+--tg-accent:#16DDE2;--tg-blue:#0066FF;--tg-warn:#FFB020;--tg-error:#FF5A5F;
+--tg-muted-surface:#1B222B;
+--tg-sans:'Plus Jakarta Sans', system-ui, sans-serif;--tg-mono:'JetBrains Mono', ui-monospace, Menlo, monospace;
+background:var(--tg-bg);color:var(--tg-text);font-family:var(--tg-sans);
+-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}

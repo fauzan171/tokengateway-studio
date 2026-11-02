@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+/**
+ * Studio shell theme. Scoped to `[data-studio-shell]` so global typography
+ * never leaks into the canvas: the canvas sets its own inline styles from
+ * logical pixel values.
+ */
+
+[data-studio-shell] {
+  --brand-blue: #0066ff;
+  --brand-cyan: #16dde2;
+  --charcoal: #181d23;
+  --surface: #202832;
+  --surface-2: #262f3a;
+  --line: #344250;
+  --text: #f4f7fa;
+  --muted: #aebbc8;
+  --warn: #ffb020;
+  --danger: #ff6b6b;
+  --ok: #46d39a;
+
+  color-scheme: dark;
+  background: var(--charcoal);
+  color: var(--text);
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+[data-studio-shell] .shell-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+
+[data-studio-shell] :focus-visible {
+  outline: 2px solid var(--brand-cyan);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Form controls carry explicit labels; no placeholder-only inputs. */
+[data-studio-shell] input,
+[data-studio-shell] select,
+[data-studio-shell] textarea,
+[data-studio-shell] button {
+  font: inherit;
+  color: inherit;
+}
+
+[data-studio-shell] input,
+[data-studio-shell] select,
+[data-studio-shell] textarea {
+  background: var(--charcoal);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 6px 10px;
+  width: 100%;
+}
+
+[data-studio-shell] input:disabled,
+[data-studio-shell] textarea:disabled,
+[data-studio-shell] select:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+[data-studio-shell] button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+[data-studio-shell] textarea {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 13px;
+  line-height: 1.55;
+  resize: vertical;
+}

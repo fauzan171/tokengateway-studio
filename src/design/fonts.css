@@ -1,0 +1,59 @@
+/* Local font faces. Files: public/fonts/*.woff2 (see provenance.json).
+   font-display:block: canvas never paints fallback text; readiness gate
+   verifies faces before capture. */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/fonts/jakarta-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url("/fonts/jakarta-500.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url("/fonts/jakarta-600.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url("/fonts/jakarta-700.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url("/fonts/jakarta-800.woff2") format("woff2");
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/fonts/jbmono-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url("/fonts/jbmono-500.woff2") format("woff2");
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url("/fonts/jbmono-700.woff2") format("woff2");
+}

@@ -1,0 +1,19 @@
+{
+  "retrievedAt": "2026-10-12",
+  "license": "SIL Open Font License 1.1 (both families)",
+  "sources": {
+    "Plus Jakarta Sans": "https://fonts.google.com/specimen/Plus+Jakarta+Sans (latin subset, weights 400-800)",
+    "JetBrains Mono": "https://fonts.google.com/specimen/JetBrains+Mono (latin subset, weights 400/500/700)"
+  },
+  "note": "Subset latin mencakup karakter Indonesia (ASCII + Latin-1 diacritics). Glyph coverage dicek di readiness: angka, Rp, titik ribuan, tanda baca, simbol kode.",
+  "files": {
+    "jakarta-400.woff2": "bb089bd829ba8c5b02f6b93c78c8af39ff68bb10622911ec60096634879e6f54",
+    "jakarta-500.woff2": "17036440ea58396c46d024fecc781e9c79a421e2f5a69e0748f882cc67f18d3e",
+    "jakarta-600.woff2": "9d83df3653431274e9877772af558e2ddb4993a3a1ba8457dc10c373f7c68872",
+    "jakarta-700.woff2": "d334bf7b661441b0ca99c5e3014fc15e9c71ee5439837689bcc96c07ca0dd58d",
+    "jakarta-800.woff2": "69e328426ad6090cf403d208bf9d97355560a8458246eaab92592f73614079e3",
+    "jbmono-400.woff2": "86c1f31291becfb59c15299f2715deb3a3b49329c8e58e2756bf7479e485acd0",
+    "jbmono-500.woff2": "d2730b591497416b5970ea5325381b53f6c817e6d7257abe30955f61eda8938f",
+    "jbmono-700.woff2": "f6d7b889c11a79b9686fae0b008ddb7a266a0419294ea98619a329231391d49d"
+  }
+}

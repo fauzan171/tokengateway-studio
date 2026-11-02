@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 904 620" role="img" aria-labelledby="mark-title">
+  <title id="mark-title">TokenGateway — draft vector, pending owner approval</title>
+  <g id="hexagon-fields" fill="#0066FF">
+    <path d="M196 0H345L390 69H235L82 310L235 550H347V620H195L0 310Z"/>
+    <path d="M559 0H708L904 310L709 620H556L512 550H669L822 310L669 69H559Z"/>
+  </g>
+  <g id="bracket" fill="#293744">
+    <path d="M404 198L428 221L347 306V315L377 345L350 371L334 352H316L278 310L316 268H335Z"/>
+    <path d="M552 250L569 268H588L626 310L588 352H568L500 423L475 398L556 315V306L527 276Z"/>
+  </g>
+  <g id="circuit-connections" fill="#16DDE2">
+    <path d="M559 0V69L467 187L439 165Z"/>
+    <path d="M347 620V550L437 433L465 455Z"/>
+    <g fill="none" stroke="#16DDE2" stroke-width="35" stroke-linecap="butt" stroke-linejoin="round">
+      <path d="M193 310L316 173H452L499 220"/>
+      <path d="M193 310L316 447L587 173L710 310L587 447"/>
+      <path d="M405 400L452 447"/>
+    </g>
+  </g>
+  <g id="circuit-nodes" fill="#16DDE2">
+    <circle cx="193" cy="310" r="42"/>
+    <circle cx="316" cy="173" r="42"/>
+    <circle cx="452" cy="173" r="42"/>
+    <circle cx="587" cy="173" r="42"/>
+    <circle cx="452" cy="310" r="42"/>
+    <circle cx="710" cy="310" r="42"/>
+    <circle cx="316" cy="447" r="42"/>
+    <circle cx="452" cy="447" r="42"/>
+    <circle cx="587" cy="447" r="42"/>
+  </g>
+</svg>

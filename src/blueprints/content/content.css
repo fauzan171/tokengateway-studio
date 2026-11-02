@@ -1,0 +1,18 @@
+/* Content canvas scoped styles. Selectors live under [data-tg-canvas] only so
+   the studio shell (sidebar/forms) is never affected. */
+[data-tg-canvas] {
+  position: relative;
+  overflow: hidden;
+}
+
+[data-tg-canvas] .tg-slot-diag {
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: 13px;
+  color: #FFB020;
+}
+
+[data-tg-canvas] .tg-fit-diag {
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: 12px;
+  color: #AEBBC8;
+}
